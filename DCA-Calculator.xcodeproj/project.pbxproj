@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		623C729B28C50B9E00A044BA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 623C729A28C50B9E00A044BA /* Podfile */; };
+		623F656728C60476005C88EF /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F656628C60476005C88EF /* SearchTableViewCell.swift */; };
+		623F656A28C6066F005C88EF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F656928C6066F005C88EF /* APIService.swift */; };
+		623F656D28C6098E005C88EF /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623F656C28C6098E005C88EF /* SearchResults.swift */; };
 		6277E42628C50A85007A3D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277E42528C50A85007A3D67 /* AppDelegate.swift */; };
 		6277E42828C50A85007A3D67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277E42728C50A85007A3D67 /* SceneDelegate.swift */; };
-		6277E42A28C50A85007A3D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6277E42928C50A85007A3D67 /* ViewController.swift */; };
 		6277E42D28C50A85007A3D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6277E42B28C50A85007A3D67 /* Main.storyboard */; };
 		6277E42F28C50A88007A3D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6277E42E28C50A88007A3D67 /* Assets.xcassets */; };
 		6277E43228C50A88007A3D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6277E43028C50A88007A3D67 /* LaunchScreen.storyboard */; };
+		62987BBF28C50E2800A0E847 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62987BBE28C50E2800A0E847 /* SearchTableViewController.swift */; };
 		FDF5F8CBE4478BA9B97D9CCE /* Pods_DCA_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E52969C45BBDF7EC89EACB /* Pods_DCA_Calculator.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,14 +24,17 @@
 		3BF56E4127AB18874A59D9D9 /* Pods-DCA-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCA-Calculator.release.xcconfig"; path = "Target Support Files/Pods-DCA-Calculator/Pods-DCA-Calculator.release.xcconfig"; sourceTree = "<group>"; };
 		482FC5D3883480CCDC8D958F /* Pods-DCA-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCA-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-DCA-Calculator/Pods-DCA-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		623C729A28C50B9E00A044BA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		623F656628C60476005C88EF /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		623F656928C6066F005C88EF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		623F656C28C6098E005C88EF /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		6277E42228C50A85007A3D67 /* DCA-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DCA-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6277E42528C50A85007A3D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6277E42728C50A85007A3D67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6277E42928C50A85007A3D67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6277E42C28C50A85007A3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6277E42E28C50A88007A3D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6277E43128C50A88007A3D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6277E43328C50A88007A3D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62987BBE28C50E2800A0E847 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		83E52969C45BBDF7EC89EACB /* Pods_DCA_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCA_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,12 +50,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		623F656328C6040E005C88EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				623F656628C60476005C88EF /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		623F656428C6041B005C88EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62987BBE28C50E2800A0E847 /* SearchTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		623F656528C60439005C88EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6277E42528C50A85007A3D67 /* AppDelegate.swift */,
+				6277E42728C50A85007A3D67 /* SceneDelegate.swift */,
+				6277E43028C50A88007A3D67 /* LaunchScreen.storyboard */,
+				6277E42B28C50A85007A3D67 /* Main.storyboard */,
+				6277E42E28C50A88007A3D67 /* Assets.xcassets */,
+				623C729A28C50B9E00A044BA /* Podfile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		623F656828C60661005C88EF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				623F656928C6066F005C88EF /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		623F656B28C60978005C88EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				623F656C28C6098E005C88EF /* SearchResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6277E41928C50A85007A3D67 = {
 			isa = PBXGroup;
 			children = (
-				623C729A28C50B9E00A044BA /* Podfile */,
 				6277E42428C50A85007A3D67 /* DCA-Calculator */,
 				6277E42328C50A85007A3D67 /* Products */,
+				623F656528C60439005C88EF /* Core */,
 				B8139337E366A77E5BE681DD /* Pods */,
 				957DEDB2BCCDBDFB123F87E3 /* Frameworks */,
 			);
@@ -66,12 +117,10 @@
 		6277E42428C50A85007A3D67 /* DCA-Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				6277E42528C50A85007A3D67 /* AppDelegate.swift */,
-				6277E42728C50A85007A3D67 /* SceneDelegate.swift */,
-				6277E42928C50A85007A3D67 /* ViewController.swift */,
-				6277E42B28C50A85007A3D67 /* Main.storyboard */,
-				6277E42E28C50A88007A3D67 /* Assets.xcassets */,
-				6277E43028C50A88007A3D67 /* LaunchScreen.storyboard */,
+				623F656B28C60978005C88EF /* Model */,
+				623F656828C60661005C88EF /* Service */,
+				623F656428C6041B005C88EF /* Controller */,
+				623F656328C6040E005C88EF /* View */,
 				6277E43328C50A88007A3D67 /* Info.plist */,
 			);
 			path = "DCA-Calculator";
@@ -91,7 +140,6 @@
 				482FC5D3883480CCDC8D958F /* Pods-DCA-Calculator.debug.xcconfig */,
 				3BF56E4127AB18874A59D9D9 /* Pods-DCA-Calculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6277E42A28C50A85007A3D67 /* ViewController.swift in Sources */,
 				6277E42628C50A85007A3D67 /* AppDelegate.swift in Sources */,
+				623F656A28C6066F005C88EF /* APIService.swift in Sources */,
+				623F656728C60476005C88EF /* SearchTableViewCell.swift in Sources */,
+				62987BBF28C50E2800A0E847 /* SearchTableViewController.swift in Sources */,
+				623F656D28C6098E005C88EF /* SearchResults.swift in Sources */,
 				6277E42828C50A85007A3D67 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
